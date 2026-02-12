@@ -1,0 +1,32 @@
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.exe
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.deps.json
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.runtimeconfig.json
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.dll
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.pdb
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.Form1.resources
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.csproj.GenerateResource.cache
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.AssemblyInfoInputs.cache
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.AssemblyInfo.cs
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.csproj.CoreCompileInputs.cache
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.dll
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\refint\Lab1_WinForms.dll
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.pdb
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.genruntimeconfig.cache
+D:\Univ4.2\RIK\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\ref\Lab1_WinForms.dll
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.exe
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.deps.json
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.runtimeconfig.json
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.dll
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\bin\Debug\net6.0-windows\Lab1_WinForms.pdb
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.Form1.resources
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.csproj.GenerateResource.cache
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.AssemblyInfoInputs.cache
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.AssemblyInfo.cs
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.csproj.CoreCompileInputs.cache
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.dll
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\refint\Lab1_WinForms.dll
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.pdb
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\Lab1_WinForms.genruntimeconfig.cache
+C:\4 COURSE\Lab1_WinForms\Lab1_WinForms\Lab1_WinForms\obj\Debug\net6.0-windows\ref\Lab1_WinForms.dll
