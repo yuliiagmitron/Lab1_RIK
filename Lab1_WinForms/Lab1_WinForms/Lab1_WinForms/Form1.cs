@@ -10,7 +10,6 @@ namespace Lab1_WinForms
         {
             InitializeComponent();
 
-            // Заборона вводу літер
             MoneyAmountTextBox1.KeyPress += OnlyNumbers_KeyPress;
             DepositPercentageTextBox.KeyPress += OnlyNumbers_KeyPress;
             DepositMonths.KeyPress += OnlyNumbers_KeyPress;
@@ -20,20 +19,19 @@ namespace Lab1_WinForms
             CreditMonths.KeyPress += OnlyNumbers_KeyPress;
         }
 
-        // ===================== ДЕПОЗИТ =====================
         private void button1_Click(object sender, EventArgs e)
         {
             if (!double.TryParse(MoneyAmountTextBox1.Text, out double depositAmount) ||
                 !double.TryParse(DepositPercentageTextBox.Text, out double percent) ||
                 !int.TryParse(DepositMonths.Text, out int termMonths))
             {
-                MessageBox.Show("Будь ласка, введіть коректні числові значення!");
+                MessageBox.Show("Р‘СѓРґСЊ Р»Р°СЃРєР°, РІРІРµРґС–С‚СЊ РєРѕСЂРµРєС‚РЅС– С‡РёСЃР»РѕРІС– Р·РЅР°С‡РµРЅРЅСЏ!");
                 return;
             }
 
             if (depositAmount <= 0 || percent <= 0 || termMonths <= 0)
             {
-                MessageBox.Show("Значення не можуть бути від’ємними або нулем!");
+                MessageBox.Show("Р—РЅР°С‡РµРЅРЅСЏ РЅРµ РјРѕР¶СѓС‚СЊ Р±СѓС‚Рё РІС–РґвЂ™С”РјРЅРёРјРё Р°Р±Рѕ РЅСѓР»РµРј!");
                 return;
             }
 
@@ -45,20 +43,19 @@ namespace Lab1_WinForms
             DisplayResults(depositAmount, interestRate, termMonths, 0, totalAmount, totalInterest);
         }
 
-        // ===================== КРЕДИТ =====================
         private void button2_Click(object sender, EventArgs e)
         {
             if (!double.TryParse(MoneyAmountTextBox2.Text, out double loanAmount) ||
                 !double.TryParse(CreditPercentageTextBox.Text, out double percent) ||
                 !int.TryParse(CreditMonths.Text, out int termMonths))
             {
-                MessageBox.Show("Будь ласка, введіть коректні числові значення!");
+                MessageBox.Show("Р‘СѓРґСЊ Р»Р°СЃРєР°, РІРІРµРґС–С‚СЊ РєРѕСЂРµРєС‚РЅС– С‡РёСЃР»РѕРІС– Р·РЅР°С‡РµРЅРЅСЏ!");
                 return;
             }
 
             if (loanAmount <= 0 || percent <= 0 || termMonths <= 0)
             {
-                MessageBox.Show("Значення не можуть бути від’ємними або нулем!");
+                MessageBox.Show("Р—РЅР°С‡РµРЅРЅСЏ РЅРµ РјРѕР¶СѓС‚СЊ Р±СѓС‚Рё РІС–РґвЂ™С”РјРЅРёРјРё Р°Р±Рѕ РЅСѓР»РµРј!");
                 return;
             }
 
@@ -73,27 +70,25 @@ namespace Lab1_WinForms
             DisplayResults(loanAmount, interestRate, termMonths, monthlyPayment, totalPayment, totalInterest);
         }
 
-        // ===================== ВИВІД РЕЗУЛЬТАТІВ =====================
         private void DisplayResults(double amount, double rate, int term,
             double monthlyPayment, double totalPayment, double totalInterest)
         {
-            string result = $"Дата розрахунку: {DateTime.Now}\r\n\r\n";
-            result += $"Початкова сума: {amount:C}\r\n";
-            result += $"Відсоткова ставка: {rate:P}\r\n";
-            result += $"Термін: {term} місяців\r\n\r\n";
+            string result = $"Р”Р°С‚Р° СЂРѕР·СЂР°С…СѓРЅРєСѓ: {DateTime.Now}\r\n\r\n";
+            result += $"РџРѕС‡Р°С‚РєРѕРІР° СЃСѓРјР°: {amount:C}\r\n";
+            result += $"Р’С–РґСЃРѕС‚РєРѕРІР° СЃС‚Р°РІРєР°: {rate:P}\r\n";
+            result += $"РўРµСЂРјС–РЅ: {term} РјС–СЃСЏС†С–РІ\r\n\r\n";
 
-            // Якщо це кредит
             if (monthlyPayment > 0)
             {
-                result += $"Щомісячний платіж: {monthlyPayment:C}\r\n";
-                result += $"Загальна сума виплат: {totalPayment:C}\r\n";
-                result += $"Загальна сума відсотків: {totalInterest:C}";
+                    result += $"Р©РѕРјС–СЃСЏС‡РЅРёР№ РїР»Р°С‚С–Р¶: {monthlyPayment:C}\r\n";
+                    result += $"Р—Р°РіР°Р»СЊРЅР° СЃСѓРјР° РІРёРїР»Р°С‚: {totalPayment:C}\r\n";
+                    result += $"Р—Р°РіР°Р»СЊРЅР° СЃСѓРјР° РІС–РґСЃРѕС‚РєС–РІ: {totalInterest:C}";
+}
             }
             else
             {
-                // Це депозит
-                result += $"Загальна сума надходжень: {totalPayment:C}\r\n";
-                result += $"Отримані відсотки: {totalInterest:C}";
+                result += $"Р—Р°РіР°Р»СЊРЅР° СЃСѓРјР° РЅР°РґС…РѕРґР¶РµРЅСЊ: {totalPayment:C}\r\n";
+                result += $"РћС‚СЂРёРјР°РЅС– РІС–РґСЃРѕС‚РєРё: {totalInterest:C}"
             }
 
             ResultBox.Text = result;
@@ -101,7 +96,7 @@ namespace Lab1_WinForms
         }
 
 
-        // ===================== ЗБЕРЕЖЕННЯ =====================
+
         private void SaveResults(string result)
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog();
@@ -113,7 +108,6 @@ namespace Lab1_WinForms
             }
         }
 
-        // ===================== ДОЗВОЛЯЄ ЛИШЕ ЧИСЛА =====================
         private void OnlyNumbers_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) &&
@@ -125,3 +119,4 @@ namespace Lab1_WinForms
         }
     }
 }
+
